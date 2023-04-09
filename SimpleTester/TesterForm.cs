@@ -12,6 +12,8 @@ namespace SimpleTester
     public partial class TesterForm : Form
     {
         private GroupBox[] GroupBoxes;
+        private string beginTime;
+        private string endTime;
         public TesterForm()
         {
             InitializeComponent();
@@ -50,6 +52,7 @@ namespace SimpleTester
             if (cbCourseList.SelectedIndex >= 0)
             {
                 TestProvider.FillCaptions(cbCourseList.SelectedItem as string, GroupBoxes);
+                beginTime = DateTime.Now.TimeOfDay.ToString(@"hh\:mm\:ss");
             }
         }
 
@@ -62,7 +65,12 @@ namespace SimpleTester
         // перевірка відповіді на тест та опублікування результату
         private void buttonCheck_Click(object sender, EventArgs e)
         {
+            endTime = DateTime.Now.TimeOfDay.ToString(@"hh\:mm\:ss");
             tbResult.AppendText(TestProvider.CheckUnswer(cbCourseList.SelectedItem as string, GroupBoxes));
+            tbResult.AppendText("\r\nПочаток тесту: ");
+            tbResult.AppendText(beginTime);
+            tbResult.AppendText("\r\nКінець тесту: ");
+            tbResult.AppendText(endTime);
             buttonCheck.Enabled = false;
         }
 

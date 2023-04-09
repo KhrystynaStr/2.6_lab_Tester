@@ -69,9 +69,10 @@
             // 
             this.labelGet.AutoSize = true;
             this.labelGet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelGet.Location = new System.Drawing.Point(28, 16);
+            this.labelGet.Location = new System.Drawing.Point(37, 20);
+            this.labelGet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGet.Name = "labelGet";
-            this.labelGet.Size = new System.Drawing.Size(148, 20);
+            this.labelGet.Size = new System.Drawing.Size(184, 25);
             this.labelGet.TabIndex = 0;
             this.labelGet.Text = "Виберіть предмет";
             // 
@@ -80,9 +81,10 @@
             this.cbCourseList.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cbCourseList.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cbCourseList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cbCourseList.Location = new System.Drawing.Point(196, 13);
+            this.cbCourseList.Location = new System.Drawing.Point(261, 16);
+            this.cbCourseList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbCourseList.Name = "cbCourseList";
-            this.cbCourseList.Size = new System.Drawing.Size(237, 28);
+            this.cbCourseList.Size = new System.Drawing.Size(315, 33);
             this.cbCourseList.TabIndex = 1;
             this.cbCourseList.Text = "  ?  ";
             this.cbCourseList.SelectedIndexChanged += new System.EventHandler(this.cbCourseList_SelectedIndexChanged);
@@ -92,9 +94,10 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Location = new System.Drawing.Point(10, 49);
+            this.panel1.Location = new System.Drawing.Point(13, 60);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(860, 5);
+            this.panel1.Size = new System.Drawing.Size(1145, 5);
             this.panel1.TabIndex = 2;
             // 
             // gbQuestion1
@@ -106,9 +109,11 @@
             this.gbQuestion1.Controls.Add(this.rbUnswer12);
             this.gbQuestion1.Controls.Add(this.rbUnswer11);
             this.gbQuestion1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbQuestion1.Location = new System.Drawing.Point(12, 60);
+            this.gbQuestion1.Location = new System.Drawing.Point(16, 74);
+            this.gbQuestion1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbQuestion1.Name = "gbQuestion1";
-            this.gbQuestion1.Size = new System.Drawing.Size(858, 85);
+            this.gbQuestion1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbQuestion1.Size = new System.Drawing.Size(1144, 105);
             this.gbQuestion1.TabIndex = 3;
             this.gbQuestion1.TabStop = false;
             this.gbQuestion1.Text = " Запитання 1 (5) ";
@@ -117,9 +122,10 @@
             // rbUnswer14
             // 
             this.rbUnswer14.AutoSize = true;
-            this.rbUnswer14.Location = new System.Drawing.Point(435, 55);
+            this.rbUnswer14.Location = new System.Drawing.Point(580, 68);
+            this.rbUnswer14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer14.Name = "rbUnswer14";
-            this.rbUnswer14.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer14.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer14.TabIndex = 3;
             this.rbUnswer14.Text = "Відповідь 4";
             this.rbUnswer14.UseVisualStyleBackColor = true;
@@ -127,9 +133,10 @@
             // rbUnswer13
             // 
             this.rbUnswer13.AutoSize = true;
-            this.rbUnswer13.Location = new System.Drawing.Point(435, 25);
+            this.rbUnswer13.Location = new System.Drawing.Point(580, 31);
+            this.rbUnswer13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer13.Name = "rbUnswer13";
-            this.rbUnswer13.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer13.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer13.TabIndex = 2;
             this.rbUnswer13.Text = "Відповідь 3";
             this.rbUnswer13.UseVisualStyleBackColor = true;
@@ -137,9 +144,10 @@
             // rbUnswer12
             // 
             this.rbUnswer12.AutoSize = true;
-            this.rbUnswer12.Location = new System.Drawing.Point(6, 55);
+            this.rbUnswer12.Location = new System.Drawing.Point(8, 68);
+            this.rbUnswer12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer12.Name = "rbUnswer12";
-            this.rbUnswer12.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer12.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer12.TabIndex = 1;
             this.rbUnswer12.Text = "Відповідь 2";
             this.rbUnswer12.UseVisualStyleBackColor = true;
@@ -147,9 +155,10 @@
             // rbUnswer11
             // 
             this.rbUnswer11.AutoSize = true;
-            this.rbUnswer11.Location = new System.Drawing.Point(6, 25);
+            this.rbUnswer11.Location = new System.Drawing.Point(8, 31);
+            this.rbUnswer11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer11.Name = "rbUnswer11";
-            this.rbUnswer11.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer11.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer11.TabIndex = 0;
             this.rbUnswer11.Text = "Відповідь 1";
             this.rbUnswer11.UseVisualStyleBackColor = true;
@@ -163,9 +172,11 @@
             this.gbQuestion2.Controls.Add(this.rbUnswer22);
             this.gbQuestion2.Controls.Add(this.rbUnswer21);
             this.gbQuestion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbQuestion2.Location = new System.Drawing.Point(12, 151);
+            this.gbQuestion2.Location = new System.Drawing.Point(16, 186);
+            this.gbQuestion2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbQuestion2.Name = "gbQuestion2";
-            this.gbQuestion2.Size = new System.Drawing.Size(858, 85);
+            this.gbQuestion2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbQuestion2.Size = new System.Drawing.Size(1144, 105);
             this.gbQuestion2.TabIndex = 4;
             this.gbQuestion2.TabStop = false;
             this.gbQuestion2.Text = " Запитання 2 (5) ";
@@ -174,9 +185,10 @@
             // rbUnswer24
             // 
             this.rbUnswer24.AutoSize = true;
-            this.rbUnswer24.Location = new System.Drawing.Point(435, 55);
+            this.rbUnswer24.Location = new System.Drawing.Point(580, 68);
+            this.rbUnswer24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer24.Name = "rbUnswer24";
-            this.rbUnswer24.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer24.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer24.TabIndex = 3;
             this.rbUnswer24.TabStop = true;
             this.rbUnswer24.Text = "Відповідь 4";
@@ -185,9 +197,10 @@
             // rbUnswer23
             // 
             this.rbUnswer23.AutoSize = true;
-            this.rbUnswer23.Location = new System.Drawing.Point(435, 25);
+            this.rbUnswer23.Location = new System.Drawing.Point(580, 31);
+            this.rbUnswer23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer23.Name = "rbUnswer23";
-            this.rbUnswer23.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer23.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer23.TabIndex = 2;
             this.rbUnswer23.TabStop = true;
             this.rbUnswer23.Text = "Відповідь 3";
@@ -196,9 +209,10 @@
             // rbUnswer22
             // 
             this.rbUnswer22.AutoSize = true;
-            this.rbUnswer22.Location = new System.Drawing.Point(6, 55);
+            this.rbUnswer22.Location = new System.Drawing.Point(8, 68);
+            this.rbUnswer22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer22.Name = "rbUnswer22";
-            this.rbUnswer22.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer22.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer22.TabIndex = 1;
             this.rbUnswer22.TabStop = true;
             this.rbUnswer22.Text = "Відповідь 2";
@@ -207,9 +221,10 @@
             // rbUnswer21
             // 
             this.rbUnswer21.AutoSize = true;
-            this.rbUnswer21.Location = new System.Drawing.Point(6, 25);
+            this.rbUnswer21.Location = new System.Drawing.Point(8, 31);
+            this.rbUnswer21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbUnswer21.Name = "rbUnswer21";
-            this.rbUnswer21.Size = new System.Drawing.Size(115, 24);
+            this.rbUnswer21.Size = new System.Drawing.Size(135, 29);
             this.rbUnswer21.TabIndex = 0;
             this.rbUnswer21.TabStop = true;
             this.rbUnswer21.Text = "Відповідь 1";
@@ -224,9 +239,11 @@
             this.gbQuestion3.Controls.Add(this.chbUnswer32);
             this.gbQuestion3.Controls.Add(this.chbUnswer31);
             this.gbQuestion3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbQuestion3.Location = new System.Drawing.Point(12, 242);
+            this.gbQuestion3.Location = new System.Drawing.Point(16, 298);
+            this.gbQuestion3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbQuestion3.Name = "gbQuestion3";
-            this.gbQuestion3.Size = new System.Drawing.Size(858, 85);
+            this.gbQuestion3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbQuestion3.Size = new System.Drawing.Size(1144, 105);
             this.gbQuestion3.TabIndex = 5;
             this.gbQuestion3.TabStop = false;
             this.gbQuestion3.Text = " Запитання 3 (10) ";
@@ -235,9 +252,10 @@
             // chbUnswer34
             // 
             this.chbUnswer34.AutoSize = true;
-            this.chbUnswer34.Location = new System.Drawing.Point(435, 55);
+            this.chbUnswer34.Location = new System.Drawing.Point(580, 68);
+            this.chbUnswer34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer34.Name = "chbUnswer34";
-            this.chbUnswer34.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer34.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer34.TabIndex = 3;
             this.chbUnswer34.Text = "Відповідь 4";
             this.chbUnswer34.UseVisualStyleBackColor = true;
@@ -245,9 +263,10 @@
             // chbUnswer33
             // 
             this.chbUnswer33.AutoSize = true;
-            this.chbUnswer33.Location = new System.Drawing.Point(435, 25);
+            this.chbUnswer33.Location = new System.Drawing.Point(580, 31);
+            this.chbUnswer33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer33.Name = "chbUnswer33";
-            this.chbUnswer33.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer33.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer33.TabIndex = 2;
             this.chbUnswer33.Text = "Відповідь 3";
             this.chbUnswer33.UseVisualStyleBackColor = true;
@@ -255,9 +274,10 @@
             // chbUnswer32
             // 
             this.chbUnswer32.AutoSize = true;
-            this.chbUnswer32.Location = new System.Drawing.Point(6, 55);
+            this.chbUnswer32.Location = new System.Drawing.Point(8, 68);
+            this.chbUnswer32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer32.Name = "chbUnswer32";
-            this.chbUnswer32.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer32.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer32.TabIndex = 1;
             this.chbUnswer32.Text = "Відповідь 2";
             this.chbUnswer32.UseVisualStyleBackColor = true;
@@ -265,9 +285,10 @@
             // chbUnswer31
             // 
             this.chbUnswer31.AutoSize = true;
-            this.chbUnswer31.Location = new System.Drawing.Point(6, 25);
+            this.chbUnswer31.Location = new System.Drawing.Point(8, 31);
+            this.chbUnswer31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer31.Name = "chbUnswer31";
-            this.chbUnswer31.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer31.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer31.TabIndex = 0;
             this.chbUnswer31.Text = "Відповідь 1";
             this.chbUnswer31.UseVisualStyleBackColor = true;
@@ -281,9 +302,11 @@
             this.gbQuestion4.Controls.Add(this.chbUnswer42);
             this.gbQuestion4.Controls.Add(this.chbUnswer41);
             this.gbQuestion4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbQuestion4.Location = new System.Drawing.Point(10, 333);
+            this.gbQuestion4.Location = new System.Drawing.Point(13, 410);
+            this.gbQuestion4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbQuestion4.Name = "gbQuestion4";
-            this.gbQuestion4.Size = new System.Drawing.Size(858, 85);
+            this.gbQuestion4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbQuestion4.Size = new System.Drawing.Size(1144, 105);
             this.gbQuestion4.TabIndex = 6;
             this.gbQuestion4.TabStop = false;
             this.gbQuestion4.Text = " Запитання 4 (10) ";
@@ -292,9 +315,10 @@
             // chbUnswer44
             // 
             this.chbUnswer44.AutoSize = true;
-            this.chbUnswer44.Location = new System.Drawing.Point(435, 55);
+            this.chbUnswer44.Location = new System.Drawing.Point(580, 68);
+            this.chbUnswer44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer44.Name = "chbUnswer44";
-            this.chbUnswer44.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer44.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer44.TabIndex = 3;
             this.chbUnswer44.Text = "Відповідь 4";
             this.chbUnswer44.UseVisualStyleBackColor = true;
@@ -302,9 +326,10 @@
             // chbUnswer43
             // 
             this.chbUnswer43.AutoSize = true;
-            this.chbUnswer43.Location = new System.Drawing.Point(435, 25);
+            this.chbUnswer43.Location = new System.Drawing.Point(580, 31);
+            this.chbUnswer43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer43.Name = "chbUnswer43";
-            this.chbUnswer43.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer43.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer43.TabIndex = 2;
             this.chbUnswer43.Text = "Відповідь 3";
             this.chbUnswer43.UseVisualStyleBackColor = true;
@@ -312,9 +337,10 @@
             // chbUnswer42
             // 
             this.chbUnswer42.AutoSize = true;
-            this.chbUnswer42.Location = new System.Drawing.Point(6, 55);
+            this.chbUnswer42.Location = new System.Drawing.Point(8, 68);
+            this.chbUnswer42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer42.Name = "chbUnswer42";
-            this.chbUnswer42.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer42.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer42.TabIndex = 1;
             this.chbUnswer42.Text = "Відповідь 2";
             this.chbUnswer42.UseVisualStyleBackColor = true;
@@ -322,9 +348,10 @@
             // chbUnswer41
             // 
             this.chbUnswer41.AutoSize = true;
-            this.chbUnswer41.Location = new System.Drawing.Point(6, 25);
+            this.chbUnswer41.Location = new System.Drawing.Point(8, 31);
+            this.chbUnswer41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chbUnswer41.Name = "chbUnswer41";
-            this.chbUnswer41.Size = new System.Drawing.Size(116, 24);
+            this.chbUnswer41.Size = new System.Drawing.Size(136, 29);
             this.chbUnswer41.TabIndex = 0;
             this.chbUnswer41.Text = "Відповідь 1";
             this.chbUnswer41.UseVisualStyleBackColor = true;
@@ -335,9 +362,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbQuestion5.Controls.Add(this.tbUnswer5);
             this.gbQuestion5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbQuestion5.Location = new System.Drawing.Point(10, 424);
+            this.gbQuestion5.Location = new System.Drawing.Point(13, 522);
+            this.gbQuestion5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbQuestion5.Name = "gbQuestion5";
-            this.gbQuestion5.Size = new System.Drawing.Size(858, 61);
+            this.gbQuestion5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbQuestion5.Size = new System.Drawing.Size(1144, 75);
             this.gbQuestion5.TabIndex = 7;
             this.gbQuestion5.TabStop = false;
             this.gbQuestion5.Text = " Запитання 5 (20) ";
@@ -346,9 +375,10 @@
             // 
             this.tbUnswer5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbUnswer5.Location = new System.Drawing.Point(154, 25);
+            this.tbUnswer5.Location = new System.Drawing.Point(205, 31);
+            this.tbUnswer5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbUnswer5.Name = "tbUnswer5";
-            this.tbUnswer5.Size = new System.Drawing.Size(689, 26);
+            this.tbUnswer5.Size = new System.Drawing.Size(917, 30);
             this.tbUnswer5.TabIndex = 0;
             this.tbUnswer5.TextChanged += new System.EventHandler(this.tbUnswer5_TextChanged);
             // 
@@ -357,9 +387,10 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Location = new System.Drawing.Point(8, 491);
+            this.panel2.Location = new System.Drawing.Point(11, 604);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(860, 5);
+            this.panel2.Size = new System.Drawing.Size(1145, 5);
             this.panel2.TabIndex = 8;
             // 
             // buttonCheck
@@ -367,9 +398,10 @@
             this.buttonCheck.Enabled = false;
             this.buttonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonCheck.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonCheck.Location = new System.Drawing.Point(458, 12);
+            this.buttonCheck.Location = new System.Drawing.Point(611, 15);
+            this.buttonCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonCheck.Name = "buttonCheck";
-            this.buttonCheck.Size = new System.Drawing.Size(120, 29);
+            this.buttonCheck.Size = new System.Drawing.Size(160, 36);
             this.buttonCheck.TabIndex = 9;
             this.buttonCheck.Text = "Перевірити";
             this.buttonCheck.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -381,9 +413,10 @@
             this.buttonQuit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonQuit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonQuit.Location = new System.Drawing.Point(748, 12);
+            this.buttonQuit.Location = new System.Drawing.Point(997, 15);
+            this.buttonQuit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonQuit.Name = "buttonQuit";
-            this.buttonQuit.Size = new System.Drawing.Size(120, 29);
+            this.buttonQuit.Size = new System.Drawing.Size(160, 36);
             this.buttonQuit.TabIndex = 11;
             this.buttonQuit.Text = "Завершити";
             this.buttonQuit.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -397,12 +430,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbResult.BackColor = System.Drawing.SystemColors.Control;
             this.tbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbResult.Location = new System.Drawing.Point(10, 511);
+            this.tbResult.Location = new System.Drawing.Point(13, 629);
+            this.tbResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbResult.Multiline = true;
             this.tbResult.Name = "tbResult";
             this.tbResult.ReadOnly = true;
             this.tbResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbResult.Size = new System.Drawing.Size(858, 164);
+            this.tbResult.Size = new System.Drawing.Size(1143, 201);
             this.tbResult.TabIndex = 12;
             this.tbResult.Text = "Результати тестування ";
             // 
@@ -411,9 +445,10 @@
             this.buttonSave.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSave.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonSave.Location = new System.Drawing.Point(603, 12);
+            this.buttonSave.Location = new System.Drawing.Point(804, 15);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(120, 29);
+            this.buttonSave.Size = new System.Drawing.Size(160, 36);
             this.buttonSave.TabIndex = 10;
             this.buttonSave.Text = "Зберегти";
             this.buttonSave.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -423,10 +458,10 @@
             // TesterForm
             // 
             this.AcceptButton = this.buttonCheck;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonQuit;
-            this.ClientSize = new System.Drawing.Size(882, 686);
+            this.ClientSize = new System.Drawing.Size(1176, 844);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.tbResult);
             this.Controls.Add(this.buttonQuit);
@@ -440,7 +475,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.cbCourseList);
             this.Controls.Add(this.labelGet);
-            this.MinimumSize = new System.Drawing.Size(890, 650);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(1181, 789);
             this.Name = "TesterForm";
             this.Text = "Тестування";
             this.Load += new System.EventHandler(this.TesterForm_Load);
